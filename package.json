@@ -1,13 +1,13 @@
 {
-  "author": "Evergreen Visual",
+  "author": "metropolisUI",
   "license": "MIT",
-  "name": "evergreenvisual.com",
+  "name": "metropolisUI.github.io",
   "version": "1.0.0",
-  "description": "The Evergreen Visual website",
-  "homepage": "http://evergreenvisual.com",
+  "description": "The website",
+  "homepage": "http://metropolisUI.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chadwithuhc/evergreenvisual.com"
+    "url": "https://github.com/metropolisUI/metropolisui.github.io"
   },
   "devDependencies": {
     "css-brunch": "^1.7.0",
@@ -29,6 +29,6 @@
   },
   "scripts": {
     "serve": "brunch watch --server",
-    "deploy": "brunch build --production && git-update-ghpages -e --keep chadwithuhc/evergreenvisual.com public"
+    "deploy": "brunch build --production && git-update-ghpages -e --keep metropolisUI/metropolisui.github.io public"
   }
 }

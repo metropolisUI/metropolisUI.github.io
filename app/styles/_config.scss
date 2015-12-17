@@ -1,0 +1,24 @@
+// Configuration Variables
+
+$evergreen-brand-primary: #366;
+$evergreen-brand-font: 100 1.2em/1em 'Pathway Gothic One', sans-serif;
+$evergreen-brand-font-color: #222;
+$evergreen-icon-font: 400 4em/1em 'Leckerli One', cursive;
+$evergreen-icon-color: white;
+
+
+$interface-links-color: #666;
+$interface-links-font: 100 1em/1em 'Pathway Gothic One', sans-serif;
+$interface-seprator-color: #ccc;
+
+
+
+// BASE Elements
+
+%interface-link {
+  font: $interface-links-font;
+  padding: .5em 1em;
+  color: $interface-links-color;
+  text-transform: uppercase;
+  text-decoration: none;
+}

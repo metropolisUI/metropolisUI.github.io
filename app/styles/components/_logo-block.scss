@@ -1,0 +1,25 @@
+.logo-block {
+  display: inline-block;
+  min-width: 150px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  
+  &:hover, &:focus {
+    min-width: 15%;
+  }
+}
+.logo-block__icon {
+  font: $evergreen-icon-font;
+  color: $evergreen-icon-color;
+  background: $evergreen-brand-primary;
+  display: block;
+  text-align: right;
+  padding: .2em .4em;
+}
+.logo-block__name {
+  font: $evergreen-brand-font;
+  display: block;
+  text-align: right;
+  text-transform: uppercase;
+  color: $evergreen-brand-font-color;
+}

@@ -1,0 +1,111 @@
+.block-nav {
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  
+  &__link {
+    @extend %interface-link;
+
+    display: inline-block;
+    font-size: 2em;
+    position: relative;
+    transition: background 0.5s ease, color 0.5s ease;
+
+    &:hover, &:focus, &.active {
+      &:after { // Vertical Line
+        background: $interface-links-color;
+        height: .5em;
+      }
+    }
+    &.active {
+      &:before { // Horizontal Line
+        background: $interface-links-color;
+        width: 25%;
+        left: 37.5%;
+      }
+    }
+    
+    &:before { // Horizontal Line
+      content: ' ';
+      display: block;
+      background: white;
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      left: 50%;
+      top: 1.6em;
+      transition: all 0.5s ease;
+    }
+
+    &:after { // Vertical Line
+      content: ' ';
+      display: block;
+      width: 1px;
+      margin: 0 auto;
+      height: 1px;
+      background: white;
+      transition: all 0.5s ease;
+      position: absolute;
+      top: 1.6em;
+      left: 50%;
+      z-index: 5;
+    }
+  }
+  
+  &__link-text {
+    position: relative;
+    z-index: 10;
+  }
+}
+// Smaller, left-aligned version
+.block-nav--tags {
+  text-align: left;
+  
+  .block-nav__link {
+    font-size: 1.2em;
+    color: white;
+
+    &:before { // Horizontal Line
+      display: none;
+    }
+    &:after {
+      background: white;
+    }
+  }
+}
+// Invert links on hover
+.block-nav--hover-invert {
+  .block-nav__link {
+    &:hover, &:focus {
+      color: $interface-links-color;
+
+      .block-nav__link-text:before { // Background animation
+        height: 1.2em;
+      }
+      &:after { // Vertical Line
+        background: white;
+        height: 0em;
+      }
+    }
+  }
+  .block-nav__link-text {
+    * { // Hack
+      position: relative;
+      z-index: 10;
+    }
+    &:before { // Background animation
+      content: ' ';
+      position: absolute;
+      bottom: 0;
+      left: -5%;
+      background: white;
+      height: 0;
+      width: 100%;
+      padding: 0 5%;
+      box-sizing: content-box;
+      z-index: auto;
+      opacity: 0.9;
+      transition: height 0.5s ease;
+    }
+  }
+}

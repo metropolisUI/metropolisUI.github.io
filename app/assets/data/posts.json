@@ -1,0 +1,22 @@
+{
+  "posts": [
+
+    {
+      "id": "002",
+      "slug": "first-post",
+      "title": "First Post!",
+      "imageUrl": "https://placeimg.com/1000/200/architecture",
+      "tags": ["Animations", "Seamless"],
+      "author": "chadwithuhc"
+    },
+    {
+      "id": "001",
+      "slug": "first-post",
+      "title": "First Post!",
+      "imageUrl": "https://placeimg.com/1000/200/nature",
+      "tags": ["Components", "Foo"],
+      "author": "chadwithuhc"
+    }
+    
+  ]
+}

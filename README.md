@@ -1,11 +1,9 @@
-# Evergreen Visual
-
-Creative visuals through various mediums.
+# metropolisUI
 
 
 ## Setup
 
-- Clone repo: `git clone https://github.com/chadwithuhc/evergreenvisual.com`
+- Clone repo: `git clone https://github.com/metropolisUI/metropolisUI.github.io`
 - NPM Install: `npm install`
 - Bower Install: `bower install`
 - Run local server: `npm run serve`
@@ -14,15 +12,6 @@ Creative visuals through various mediums.
 ## Deploy
 
 Deploy in one command: `npm run deploy`
-
-
-## Posting a Visual
-
-Contributors can post a visual using the following instructions.
-
-### Marking your territory
-
-
 
 
 ## License

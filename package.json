@@ -29,6 +29,6 @@
   },
   "scripts": {
     "serve": "brunch watch --server",
-    "deploy": "brunch build --production && git-update-ghpages -e --keep metropolisUI/metropolisui.github.io public"
+    "deploy": "brunch build --production && git-update-ghpages -e --keep -b master metropolisUI/metropolisui.github.io public"
   }
 }

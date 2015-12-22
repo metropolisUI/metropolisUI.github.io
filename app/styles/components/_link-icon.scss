@@ -1,0 +1,18 @@
+.link-icon {
+  &:before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    color: white;
+  }
+}
+
+.link-icon--component {
+  &:before {
+    content: '\f1b3'; 
+  }
+}
+.link-icon--link {
+  &:before {
+    content: '\f13d';
+  }
+}

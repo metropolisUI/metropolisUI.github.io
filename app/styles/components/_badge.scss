@@ -6,12 +6,19 @@
   text-transform: uppercase;
   color: white;
   padding: .2em .4em;
-  margin-right: .5em;
   border-radius: 4px;
 }
+
+.badge--light {
+  background: white;
+  color: inherit;
+}
+
+
 .badge--right-tip {
   position: relative;
   background: $interface-accent-color;
+  margin-right: .5em;
 
   &:after {
     content: ' ';
@@ -26,5 +33,24 @@
     border-left-color: $interface-accent-color;
     border-width: 5px;
     margin-top: -5px;
+  }
+}
+.badge--top-tip {
+  position: relative;
+  background: #fff;
+  
+  &:after {
+    content: " ";
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 5px;
+    margin-left: -5px;
   }
 }

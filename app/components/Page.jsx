@@ -30,7 +30,7 @@ var Page = React.createClass({
     return (
       <div>
         {this.state.posts.map(function (post) {
-          return <Postlet id={post.id} slug={post.slug} tags={post.tags} baseHref="/visuals/" imageUrl={post.imageUrl} />;
+          return <Postlet id={post.id} slug={post.slug} tags={post.tags} baseHref="/posts/" imageUrl={post.imageUrl} type={post.type} />;
         })}
       </div>
     );

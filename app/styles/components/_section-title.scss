@@ -1,0 +1,36 @@
+.section-title {
+  font: $evergreen-brand-font;
+  font-size: 2em;
+  color: $interface-accent-color;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  
+  &:after, &:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    margin-top: 5px;
+  }
+
+  &:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 5px;
+    margin-left: -5px;
+  }
+  &:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000;
+    border-width: 6px;
+    margin-left: -6px;
+  }
+}
+.section-title--for-avatars {
+  width: 100px;
+}

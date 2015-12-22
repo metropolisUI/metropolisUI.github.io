@@ -1,6 +1,6 @@
 // Configuration Variables
 
-$evergreen-brand-primary: #c00;
+$evergreen-brand-primary: orangered;
 $evergreen-brand-font: 100 1.2em/1em 'Pathway Gothic One', sans-serif;
 $evergreen-brand-font-color: #222;
 $evergreen-icon-font: 400 4em/1em 'Leckerli One', cursive;
@@ -9,7 +9,9 @@ $evergreen-icon-color: white;
 
 $interface-links-color: #666;
 $interface-links-font: 100 1em/1em 'Pathway Gothic One', sans-serif;
-$interface-seprator-color: #ccc;
+$interface-separator-color: lightgrey;
+$interface-separator-color-light: aliceblue;
+$interface-accent-color: slategray;
 
 
 

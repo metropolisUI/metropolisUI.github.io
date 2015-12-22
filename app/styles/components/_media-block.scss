@@ -1,0 +1,25 @@
+.media-block {
+  @extend .clearfix;
+}
+.media-block--cv-style {
+  position: relative;
+  margin: 2em 0 5em 100px;
+  
+  .media-block__title {
+    float: left;
+    padding: .5em 1em;
+    margin-left: 1em;
+    font: $evergreen-brand-font;
+    font-size: 1em;
+  }
+  
+  .media-block__image {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    background: white;
+    border: solid 1px $interface-separator-color;
+    border-radius: 3px;
+    padding: .2em;
+  }
+}

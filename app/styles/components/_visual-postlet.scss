@@ -12,7 +12,7 @@
     position: absolute;
     bottom: -2em;
     left: -200%;
-    border-bottom: dashed 1px $interface-seprator-color;
+    border-bottom: dashed 1px $interface-separator-color;
   }
   
   &__permalink-wrap {
@@ -41,6 +41,6 @@
   .block-nav--tags {
     position: absolute;
     bottom: 0;
-    let: 0;
+    left: 0;
   }
 }

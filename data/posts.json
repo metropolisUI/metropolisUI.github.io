@@ -7,7 +7,8 @@
       "title": "First Post!",
       "imageUrl": "https://placeimg.com/1000/200/architecture",
       "tags": ["Animations", "Seamless"],
-      "author": "chadwithuhc"
+      "author": "chadwithuhc",
+      "type": "Component"
     },
     {
       "id": "001",
@@ -15,7 +16,8 @@
       "title": "First Post!",
       "imageUrl": "https://placeimg.com/1000/200/nature",
       "tags": ["Components", "Foo"],
-      "author": "chadwithuhc"
+      "author": "chadwithuhc",
+      "type": "Link"
     }
     
   ]

@@ -1,14 +1,22 @@
 {
+  "meta": {
+    "description": "A place to discover and explore the web component world",
+    "description_extended": "A place to discover and explore the web component world"
+  },
   "authors": [
     {
       "id": "chadwithuhc",
       "displayName": "chadwithuhc",
-      "avatar": "gravatar"
+      "gravatarHash": "c76513989503bfd354a9d4a4f81db194",
+      "occupation": "UI Engineer",
+      "specialties": "Design, Components"
     },
     {
       "id": "trenton",
       "displayName": "trentontri",
-      "avatar": "gravatar"
+      "gravatarHash": "null",
+      "occupation": "UI Engineer",
+      "specialties": "Design, Components"
     }
   ]
 }
